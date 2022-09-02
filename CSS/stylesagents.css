@@ -1,0 +1,112 @@
+/* El asterisco marca que es global, cualquier cosa aqui descrita es para todos los elementos */
+* {
+    margin: 0%;
+    
+}
+
+
+
+body {
+    font-family: 'Roboto Slab', serif;
+    background-color: #ffffff;
+}
+
+/* .subheader-page {
+} */
+
+.subheader-text {
+    text-align: center;
+    max-width: 20rem; 
+}
+
+.header-bar{
+    background-color: #f94555;
+    height: 100px;
+    width: 100%;
+}
+
+/* Asi se estila un elemento en especifico en 1 clase */
+.header-bar h1 {
+    font-family:'VALORANT', sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    margin: 0%;
+    color: rgb(2, 2, 2);
+}
+/* Esto es como se estila una clase en especifico. */
+.header-nav-bar {
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+}
+
+.header-nav-bar a {
+    font-family: 'VALORANT', sans-serif;
+    margin: 2%;
+    color: rgb(5, 5, 5);
+    text-decoration: none;
+}
+
+.header-nav-bar a:hover {
+    transition:all .3s ease-in-out;
+    color: rgb(255, 255, 255);
+}
+
+.card-agent {
+    min-height: 900px;
+    height: 900px;
+    background-color: rgb(114, 92, 52);
+}
+
+.title-card {
+    font-family: 'VALORANT', sans-serif;
+    margin: 10px;
+    text-align: center;
+    background-color: blue;
+    font-size: 50px;
+}
+
+.header-agent {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+    background-color: rgb(201, 3, 36);
+
+}
+
+.description-agent {
+   
+}
+
+.content-agent {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.content-agent p {
+    max-width: 600px;
+}
+
+
+.img-agent {
+    height: 700px;
+}
+
+.text-content-agent {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.text-content-agent ul {
+    margin: 20px;
+}
+
+
+
+
+.footer {
+    height: 200px;
+    margin-top: 200px;
+    background-color: #112031;
+}

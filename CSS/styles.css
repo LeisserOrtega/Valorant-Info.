@@ -1,0 +1,51 @@
+/* El asterisco marca que es global, cualquier cosa aqui descrita es para todos los elementos */
+* {
+    font-family: 'VALORANT', sans-serif;
+}
+
+
+body {
+    background-color: #ffffff;
+}
+
+
+.main-bar{
+    background-color: #fa4453;
+    height: 100px;
+    width: 100%;
+}
+
+/* Asi se estila un elemento en especifico en 1 clase */
+.main-bar h1 {
+    text-align: center;
+    padding-top: 10px;
+    margin: 0%;
+    color: rgb(2, 2, 2);
+}
+/* Esto es como se estila una clase en especifico. */
+.nav-bar {
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+}
+
+.nav-bar a {
+    margin: 2%;
+    color: rgb(5, 5, 5);
+    text-decoration: none;
+}
+.nav-bar a:hover {
+    color: rgb(75, 74, 74);
+}
+
+
+.block-1 {
+    height: 400px;
+    background-color: #152D35;
+}
+
+.footer {
+    height: 200px;
+    background-color: #112031;
+}
