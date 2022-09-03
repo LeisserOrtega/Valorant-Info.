@@ -177,7 +177,7 @@ body {
     width: 400px;
 }
 
-.footer {
+footer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -194,10 +194,4 @@ body {
 .footer a:hover {
     transition:all 0s ease-in-out;
     color: rgb(187, 186, 186);
-}
-
-
-.footer img {
-    height: 25px;
-    width:  25px;
 }

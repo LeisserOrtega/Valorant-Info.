@@ -1,51 +1,209 @@
-/* El asterisco marca que es global, cualquier cosa aqui descrita es para todos los elementos */
 * {
-    font-family: 'VALORANT', sans-serif;
+    margin: 0%;
+    
 }
+
 
 
 body {
+    font-family: 'Roboto Slab', serif;
     background-color: #ffffff;
 }
 
+a, a:visited{
+    color: white;
+}
 
-.main-bar{
-    background-color: #fa4453;
+a:hover {
+    transition: all 0.2s ease-in-out;
+    color: rgb(0, 0, 0);
+}
+
+.header-bar{
+    background-color: #e63d4b;
     height: 100px;
     width: 100%;
 }
 
 /* Asi se estila un elemento en especifico en 1 clase */
-.main-bar h1 {
+.header-bar h1 {
+    font-family:'VALORANT', sans-serif;
     text-align: center;
     padding-top: 10px;
     margin: 0%;
     color: rgb(2, 2, 2);
 }
 /* Esto es como se estila una clase en especifico. */
-.nav-bar {
+.header-nav-bar {
     font-size: 20px;
     text-align: center;
     margin: 10px;
     padding: 5px;
 }
 
-.nav-bar a {
+.header-nav-bar a {
+    font-family: 'VALORANT', sans-serif;
     margin: 2%;
     color: rgb(5, 5, 5);
     text-decoration: none;
 }
-.nav-bar a:hover {
-    color: rgb(75, 74, 74);
+
+.header-nav-bar a:hover {
+    transition:all 0s ease-in-out;
+    color: rgb(255, 255, 255);
 }
 
 
-.block-1 {
+.header-contenedor {
+    background-color: cornflowerblue;
+    height: 600px;
+}
+
+.header-title h2{
+    padding: 15px;;
+}
+
+.valofont{
+    font-family: 'VALORANT', sans-serif;
+}
+
+.title {
+    font-size: 100px;
+    text-align: center;
+}
+
+.header-content-contenedor{
+    
+}
+
+.header-title {
+    margin: 20px;
+}
+
+.header-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-content p {
+    text-align: center;
+    width: 850px;    
+}
+
+
+.eventos-contenedor{
+    display: flex;
+    align-items: center;
+    background-color: #d6ab60;
+    margin: 15px 0px 15px 0px;
+}
+
+.evento-fondo{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 10px;
+    background-color: black;
+    width: 100%;
+    border: solid 4px #926f33;
+}
+
+.evento-col1{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+.evento-col2{
+    display: grid;
+    text-align: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.evento-col2 img {
+    width: 650px;
+}
+.contenedor-grids-contenido{
+    margin: 15px 0px 15px 0px;
+}
+
+video {
+    width: 600px;
+    height: 500px;
+}
+
+.grid-titles{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+    margin: 20px 20px 0px 20px;
+    background-color: rgb(212, 212, 212);
+}
+
+.grid-titles img{
     height: 400px;
-    background-color: #152D35;
+    width: 400px;
 }
 
-.footer {
-    height: 200px;
-    background-color: #112031;
+.border {
+    border: 2px solid black;
+}
+
+
+
+.contenido-contenedor{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 0px 20px 0px 20px;
+}
+
+.card-contenedor{
+    background-color: rgb(212, 212, 212);
+    border: 2px solid black;
+}
+
+.card-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: wheat; */
+}
+
+.info-text {
+    margin: 20px;
+    max-width: 800px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    background-color: #000000;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.footer a:hover {
+    transition:all 0s ease-in-out;
+    color: rgb(187, 186, 186);
 }
