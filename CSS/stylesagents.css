@@ -20,6 +20,26 @@ body {
     background-color: #170b2e;
 }
 
+#phoenix {
+    margin-bottom: 85px;
+    background-color: #c97800;
+}
+
+#raze {
+    margin-bottom: 85px;
+    background-color: #c56b16;
+}
+
+#neon{
+    margin-bottom: 85px;
+    background-color: rgb(21, 48, 121);
+}
+
+#yoru{
+    margin-bottom: 85px;
+    background-color: rgb(5, 28, 90);
+}
+
 .header-bar{
     background-color: #e63d4b;
     height: 100px;
@@ -102,6 +122,10 @@ body {
   font-size: 30px;
   max-width: 300px;
 }
+
+
+
+
 
 .table-contents a {
     margin: 2%;
